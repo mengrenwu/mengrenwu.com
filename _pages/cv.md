@@ -54,13 +54,6 @@ description:
   <h2>Teaching</h2>
 
   <div class="academia-item">
-    <h3>Stanford University</h3>
-    <ul>
-      <li>Postdoctoral teaching and mentoring activities, 2025</li>
-    </ul>
-  </div>
-
-  <div class="academia-item">
     <h3>Christian Brothers University</h3>
     <ul>
       <li>Spring 2024: <code>ME 305 Thermodynamics II</code></li>

@@ -6,6 +6,7 @@ img: assets/img/3.jpg
 importance: 2
 category: hardware
 giscus_comments: true
+selected: true
 ---
 
 Every project has a beautiful feature showcase page.

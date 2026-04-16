@@ -6,7 +6,7 @@ subtitle: Mechanical Engineer | Robotics & Automation
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: headshot_wu_mengren.jpg
   image_circular: false # crops the image to make it circular
 
 selected_projects: true # includes selected projects on the homepage
@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a precision-driven <span style="color: var(--global-theme-color);">mechanical engineer</span> focused on robotics, automation, and micro-scale systems. I enjoy turning complex mechanical challenges into real-world systems. I translate ideas from first-principles physics into functional hardware.
+I am a precision-driven <span style="color: var(--global-theme-color);">mechanical engineer</span> focused on robotics, automation, and micro-scale systems. I enjoy transforming complex mechanical challenges into real-world systems, from first-principles physics to functional hardware.
 
 I am currently a Postdoctoral Fellow in Mechanical Engineering at **Stanford University**, where I develop micro-scale automation systems, teleoperation platforms, and precision end-effectors.
 

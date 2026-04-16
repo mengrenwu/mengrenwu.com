@@ -1,9 +1,9 @@
-{% assign selected_projects = site.projects | where: "selected", true | sort: "importance" %}
+{% assign selected_projects = site.projects | where: 'selected', true | sort: 'importance' %}
 {% if selected_projects.size == 0 %}
-  {% assign selected_projects = site.projects | sort: "importance" | slice: 0, 3 %}
+  {% assign selected_projects = site.projects | sort: 'importance' | slice: 0, 3 %}
 {% endif %}
 
-<div class="projects">
+<div class="projects selected-projects">
   <div class="row row-cols-1">
     {% for project in selected_projects %}
       {% include projects_horizontal.liquid %}

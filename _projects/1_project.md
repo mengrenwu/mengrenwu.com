@@ -1,81 +1,40 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Singularity-Driven Slide Rail Gripper
+description: High-Precision Non-linear Parallel Gripper (35mm Stroke)
 img: assets/img/12.jpg
 importance: 1
 category: hardware
 related_publications: true
+selected: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Singularity-Driven Slide Rail Gripper
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**High-Precision Non-linear Parallel Gripper (35mm Stroke)**
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### 1. The Engineering Challenge
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Standard linear grippers typically suffer from high-impact forces upon initial contact, requiring massive continuous motor torque to maintain static gripping force. The objective of this project was to design a micro-scale 35 mm stroke parallel clamping mechanism that guarantees a zero-jerk soft landing while maximizing static holding force, all without overloading the micro-actuator.
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### 2. Kinematic Synthesis: The Math Behind the Motion
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+To achieve zero-impact grasping, I engineered a customized quarter-sine wave cam profile. The core design principle was to create a motion profile that naturally flattens as the gripper approaches the fully closed position. As the mechanism nears closure, the system enters a near-kinematic singularity, converting minimal motor torque into a dramatically increasing clamping force. This delivers a very high mechanical advantage at the exact moment of physical contact.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### 3. Dynamic Simulation and CAE Validation
 
-{% raw %}
+Theoretical kinematics assume infinite motor energy and zero mass. To validate the design against real-world physics, I conducted rigorous multi-body dynamic simulations using SolidWorks Motion and ADAMS.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+I analyzed micro-collisions and stick-slip friction during the clamping phase, and I mitigated high-frequency contact chatter by tuning mass scaling and contact damping parameters. These simulations confirmed that torque demand drops smoothly near the singularity point, as intended by the design.
 
-{% endraw %}
+### 4. Engineer's Insight: Hardware Iteration and Troubleshooting
+
+The transition from pure mathematical design to a 3D-printed physical prototype exposed the reality of non-linear friction.
+
+During physical testing, the closing stroke was smooth because the mechanism benefited from self-aligning tension. However, the opening stroke encountered absolute self-locking in the last portion of travel. The side-loads generated by the cam forced the 3D-printed guide block into a severe push-pull wedging effect, similar to a drawer jamming under misalignment.
+
+To solve this, I first increased the length-to-diameter ratio of the guide block to reduce the tendency for diagonal wedging. I then replaced the static sliding pin with a micro-ball bearing, transforming high sliding friction into low rolling friction. This change completely eliminated the self-locking behavior and made the mechanism reliable in both directions of motion.
+
+---
+
+**Skills Applied:** `Mechanism Synthesis` `SolidWorks Motion` `ADAMS` `Kinematics & Dynamics` `Rapid Prototyping` `DFM`
