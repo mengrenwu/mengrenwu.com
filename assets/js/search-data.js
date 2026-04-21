@@ -60,19 +60,19 @@ ninja.data = [{
           section: "News",},{id: "news-joined-stanford-university-as-a-postdoctoral-fellow-in-the-department-of-mechanical-engineering",
           title: 'Joined Stanford University as a Postdoctoral Fellow in the Department of Mechanical Engineering....',
           description: "",
-          section: "News",},{id: "projects-singularity-driven-slide-rail-gripper",
-          title: 'Singularity-Driven Slide Rail Gripper',
-          description: "High-Precision Non-linear Parallel Gripper (35mm Stroke)",
+          section: "News",},{id: "projects-5-axis-automated-transfer-system-for-precision-positioning",
+          title: '5-Axis Automated Transfer System for Precision Positioning',
+          description: "Multi-axis automation platform for imaging-assisted precision transfer and positioning.",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-asymmetric-dual-arm-teleoperation-platform-for-force-application",
+          title: 'Asymmetric Dual-Arm Teleoperation Platform for Force Application',
+          description: "6-DOF teleoperation platform for controlled force application with FEA-optimized rigidity and synchronized Dynamixel motion control.",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-compact-variable-transmission-end-effectors-for-automated-loading",
+          title: 'Compact Variable-Transmission End-Effectors for Automated Loading',
+          description: "Compact gripper and end-effector designs for automated loading under tight spatial constraints.",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/3_project/";
             },},{id: "projects-project-4",
