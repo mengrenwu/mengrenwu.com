@@ -27,4 +27,4 @@ I am a precision-driven <span style="color: var(--global-theme-color);">mechanic
 
 I am currently a Postdoctoral Fellow in Mechanical Engineering at **Stanford University**, where I develop micro-scale automation systems, teleoperation platforms, and precision end-effectors.
 
-I earned my Ph.D. and M.S. in Mechanical Engineering from the **University of Illinois Chicago**, specializing in micro/nano systems. To further connect physical hardware with intelligent control, I am also pursuing an online M.S. in Computer Science with a focus on Artificial Intelligence at **Georgia Tech**.
+I earned my Ph.D. and M.S. in Mechanical Engineering from the **University of Illinois Chicago**, specializing in micro/nano systems. To further connect physical hardware with intelligent control, I am also pursuing an online M.S. in Computer Science with a focus on Robotics at **Georgia Tech**.
