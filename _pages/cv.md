@@ -81,6 +81,13 @@ description:
   <h2>Student Advising</h2>
 
   <div class="academia-item">
+    <p>At <strong>Stanford University</strong>, I advised a Ph.D. student on:</p>
+    <ul>
+      <li>Micro-scale automation system for precision dicing</li>
+    </ul>
+  </div>
+
+  <div class="academia-item">
     <p>At <strong>University of Illinois Chicago</strong>, I advised and mentored students on projects including:</p>
     <ul>
       <li>Microfluidic biosensor for rapid bacteria detection</li>
@@ -100,8 +107,13 @@ description:
       <li>Email: <a href="mailto:mwu01@stanford.edu">mwu01@stanford.edu</a></li>
       <li>Google Scholar: <a href="https://scholar.google.com/citations?user=dyzazVMAAAAJ&hl=en">Profile</a></li>
       <li>GitHub: <a href="https://github.com/mengrenwu">mengrenwu</a></li>
-      <li>Xu Lab at UIC: <a href="https://xu.uic.edu">Microfluidics Laboratory</a></li>
-      <li>Tang Group at Stanford: <a href="https://web.stanford.edu/group/tanglab/cgi-bin/">Micro-Nano-Bio Lab</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/mengrenwu">mengrenwu</a></li>
+    </ul>
+    <hr>
+    <ul>
+      <li>Wu Group - Micro/Nano Systems Lab @ CBU: Closed now</li>
+      <li>Xu Lab @ UIC: <a href="https://xu.uic.edu">Microfluidics Laboratory</a></li>
+      <li>Tang Group @ Stanford: <a href="https://web.stanford.edu/group/tanglab/cgi-bin/">Micro-Nano-Bio Lab</a></li>
     </ul>
   </div>
 </section>

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Compact Variable-Transmission End-Effectors for Automated Loading
-description: Compact gripper and end-effector designs for automated loading under tight spatial constraints.
+title: Compact Variable-Transmission End-Effectors
+description: Compact gripper and end-effector designs under tight spatial constraints.
 highlights:
-  - Designed a 30 mm variable-transmission end-effector using SLA 3D printing, resolving linkage binding and eliminating dead centers through iterative testing and kinematic analysis.
-  - Developing a lightweight 6 mm tendon-driven gripper for automated loading under tight spatial constraints to improve precision and operational repeatability.
+  - Designed a compact variable-transmission end-effector, improving linkage performance through iterative testing and kinematic analysis.
+  - Developed a lightweight tendon-driven gripper under tight spatial constraints to improve precision and operational repeatability.
 img: assets/img/7.jpg
 importance: 3
 category: hardware

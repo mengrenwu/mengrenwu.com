@@ -6,7 +6,7 @@ img: assets/img/4.jpg
 importance: 7
 category: hardware
 related_publications: true
-selected: true
+selected: false
 ---
 
 Every project has a beautiful feature showcase page.
