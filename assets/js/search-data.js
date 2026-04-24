@@ -60,9 +60,9 @@ ninja.data = [{
           section: "News",},{id: "news-joined-stanford-university-as-a-postdoctoral-fellow-in-the-department-of-mechanical-engineering",
           title: 'Joined Stanford University as a Postdoctoral Fellow in the Department of Mechanical Engineering....',
           description: "",
-          section: "News",},{id: "projects-5-axis-automated-transfer-system-for-precision-positioning",
-          title: '5-Axis Automated Transfer System for Precision Positioning',
-          description: "Multi-axis automation platform for imaging-assisted precision transfer and positioning.",
+          section: "News",},{id: "projects-multi-axis-automation-platform-for-micro-scale-positioning",
+          title: 'Multi-Axis Automation Platform for Micro-Scale Positioning',
+          description: "Custom multi-axis automation platform for micro-scale positioning.",
           section: "Projects",handler: () => {
               window.location.href = "/mengrenwu.com/projects/1_project/";
             },},{id: "projects-asymmetric-dual-arm-teleoperation-platform-for-force-application",
@@ -70,14 +70,14 @@ ninja.data = [{
           description: "6-DOF teleoperation platform for controlled force application with FEA-optimized rigidity and synchronized Dynamixel motion control.",
           section: "Projects",handler: () => {
               window.location.href = "/mengrenwu.com/projects/2_project/";
-            },},{id: "projects-compact-variable-transmission-end-effectors-for-automated-loading",
-          title: 'Compact Variable-Transmission End-Effectors for Automated Loading',
-          description: "Compact gripper and end-effector designs for automated loading under tight spatial constraints.",
+            },},{id: "projects-compact-variable-transmission-end-effectors",
+          title: 'Compact Variable-Transmission End-Effectors',
+          description: "Compact gripper and end-effector designs under tight spatial constraints.",
           section: "Projects",handler: () => {
               window.location.href = "/mengrenwu.com/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-automated-cad-modeling-amp-3d-spatial-routing",
+          title: 'Automated CAD Modeling &amp;amp; 3D Spatial Routing',
+          description: "Algorithmic pathfinding and CAD generation for high-density, collision-free 3D routing in constrained physical environments.",
           section: "Projects",handler: () => {
               window.location.href = "/mengrenwu.com/projects/4_project/";
             },},{id: "projects-project-5",

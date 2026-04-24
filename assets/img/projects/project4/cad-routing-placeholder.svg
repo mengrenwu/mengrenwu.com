@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Automated CAD routing placeholder</title>
+  <desc id="desc">A clean technical placeholder showing collision-free three-dimensional routing paths through constrained CAD volumes.</desc>
+  <rect width="900" height="560" fill="#f7f8fa"/>
+  <g stroke="#d9dee7" stroke-width="1">
+    <path d="M80 80H820M80 160H820M80 240H820M80 320H820M80 400H820M80 480H820"/>
+    <path d="M100 60V500M220 60V500M340 60V500M460 60V500M580 60V500M700 60V500M820 60V500"/>
+  </g>
+  <g fill="#ffffff" stroke="#9aa6b2" stroke-width="3">
+    <rect x="105" y="95" width="130" height="100" rx="8"/>
+    <rect x="360" y="75" width="150" height="115" rx="8"/>
+    <rect x="650" y="110" width="120" height="95" rx="8"/>
+    <rect x="170" y="340" width="145" height="105" rx="8"/>
+    <rect x="520" y="325" width="170" height="120" rx="8"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M135 150C210 245 290 245 360 155C440 55 525 90 575 180C640 295 735 245 760 165" stroke="#8c1515" stroke-width="12"/>
+    <path d="M210 390C270 315 335 305 405 360C475 415 535 415 595 360C655 305 705 325 740 390" stroke="#246b8f" stroke-width="12"/>
+    <path d="M150 250C255 205 330 220 395 285C455 345 520 315 570 255C625 190 690 210 760 275" stroke="#7a6f2b" stroke-width="10"/>
+  </g>
+  <g fill="#1f2933">
+    <circle cx="135" cy="150" r="12"/>
+    <circle cx="760" cy="165" r="12"/>
+    <circle cx="210" cy="390" r="12"/>
+    <circle cx="740" cy="390" r="12"/>
+    <circle cx="150" cy="250" r="10"/>
+    <circle cx="760" cy="275" r="10"/>
+  </g>
+  <g fill="#eef2f6" stroke="#627386" stroke-width="2">
+    <path d="M110 505H790L720 455H180Z"/>
+    <path d="M180 455V420M720 455V420"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#4b5563">
+    <text x="72" y="42" font-size="28" font-weight="700">3D Spatial Routing</text>
+    <text x="72" y="76" font-size="18">collision-free CAD path generation</text>
+    <text x="618" y="505" font-size="16">DFM-aware geometry output</text>
+  </g>
+</svg>
